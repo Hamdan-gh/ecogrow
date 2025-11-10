@@ -1,73 +1,48 @@
-# Welcome to your Lovable project
+# EcoGrow 🌱  
+_A tree-planting reward platform built with tpescrip, react abd superbase
 
-## Project info
+## 🚀 Overview  
+EcoGrow is a web-platform that encourages users to plant, nurture and monitor trees — while earning tokens that can be redeemed for real-world items like fertilizer and supplies.  
+Designed for environmental impact and community engagement, EcoGrow connects sustainable action with tangible rewards.
 
-**URL**: https://lovable.dev/projects/d8c2f173-6340-4520-97f7-e6033e951e11
+## 🎯 Key Features  
+- **User registration & authentication**: Users can sign up, log in and create their profile.  
+- **Plant a tree**: Users select a tree, enter planting details (location, date), and start a growth timer.  
+- **Growth monitoring**: Track your tree’s progress over time, uploading photos or updates.  
+- **Earn tokens**: As the tree matures, the user earns tokens into their account.  
+- **Token redemption**: Use tokens in the marketplace to buy items (e.g., fertilizer, saplings).  
+- **Admin dashboard**: Manage users, verify growth requests, and monitor statistics (revenue, daily transactions).  
+- **Mobile & responsive friendly**: Designed to work across phones and desktop.
 
-## How can I edit this code?
+## 🧰 Tech Stack  
+- **Frontend**: <e.g., React + TypeScript>  
+- **Backend / Database**: <e.g., Firebase Auth + Firestore>  
+- **Hosting / Deployment**: <e.g., Vercel>  
+- **Tools / Others**: <e.g., Node.js, Express (if used), etc.>
 
-There are several ways of editing your application.
+## 📋 Project Structure  
+src
+/components
+/pages
+/assets
+/styles
+/firebase
+/rules
+/config.js
 
-**Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d8c2f173-6340-4520-97f7-e6033e951e11) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+_This is a sample structure — update to reflect your actual files._
 
-**Use your preferred IDE**
+## 🧮 Getting Started  
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/Hamdan-gh/ecogrow.git
+   cd ecogrow
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+   npm install
+REACT_APP_FIREBASE_API_KEY=<your_api_key>  
+REACT_APP_FIREBASE_AUTH_DOMAIN=<your_auth_domain>  
+REACT_APP_FIREBASE_PROJECT_ID=<your_project_id>  
+…  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/d8c2f173-6340-4520-97f7-e6033e951e11) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
